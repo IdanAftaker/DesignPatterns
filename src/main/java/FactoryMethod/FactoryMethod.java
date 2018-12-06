@@ -1,7 +1,14 @@
 package FactoryMethod;
 
 import java.util.ArrayList;
-
+/**
+ * @author Idan Aftaker on 02/12/2018
+ * @project DesignPatterns
+ *
+ * Factory pattern is one of the most used design patterns in Java.
+ * This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+ * In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface
+ */
 public class FactoryMethod {
 
     public static void main(String[] args){

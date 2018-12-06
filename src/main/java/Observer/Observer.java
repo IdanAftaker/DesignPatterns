@@ -1,5 +1,13 @@
 package Observer;
 
+/**
+ * @author Idan Aftaker on 02/12/2018
+ * @project DesignPatterns
+ *
+ * Observer pattern uses three actor classes. Subject, Observer and Client.
+ * Subject is an object having methods to attach and detach observers to a client object.
+ * We have created an abstract class Observer and a concrete class Subject that is extending class Observer.
+ */
 public class Observer {
     public static void main(String[] args){
         MessageBoard board = new MessageBoard();

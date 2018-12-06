@@ -1,5 +1,12 @@
 package Memento;
 
+/**
+ * @author Idan Aftaker on 02/12/2018
+ * @project DesignPatterns
+ *
+ * Memento pattern uses three actor classes. Memento contains state of an object to be restored.
+ * Originator creates and stores states in Memento objects and Caretaker object is responsible to restore object state from Memento.
+ */
 public class Memento {
     public static void main(String[] args) {
         Originator originator = new Originator();
